@@ -1,0 +1,1 @@
+print() ->> lệnh in ra

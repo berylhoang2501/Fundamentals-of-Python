@@ -12,6 +12,24 @@ cài với quyền admin, chọn all users
 
 ## 2/12/2023: Buổi học 2: Biến và các kiểu dữ liệu
 + Giới thiệu về biến (tìm ra bản chất chung của bài toán, cần nhập vào giá trị gì, xuất ra giá trị gì)
++ Định danh
+
+tên không mở đầu bằng số
+không được chứa những kí tự đặt biệt @, #, %
+tên biến không được trùng với các từ khoá trong Python 
+nên đặt tên gọi nhớ giá trị biến lưu trữ 
+nếu k muốn trùng với từ khoá có thể thêm _ phía trc
+
++ Số thực: float
++ Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)
++ Tiền vnd: int
+
++ dấu : thông báo sắp có format phía sau
++ .1f là lấy 1 chữ số thập phân
+
+
+
+
 
 
 

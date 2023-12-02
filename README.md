@@ -23,10 +23,13 @@ nếu k muốn trùng với từ khoá có thể thêm _ phía trc
 + Số thực: float
 + Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)
 + Tiền vnd: int
++ Chia lấy phần dư: %
++ Chia lấy phần nguyên: //
 
 + dấu : thông báo sắp có format phía sau
-+ .1f là lấy 1 chữ số thập phân
-
++ {:.1f} là lấy 1 chữ số thập phân
++ Lệnh nhập dữ liệu lần lượt (nhập đồng loạt): a,b,c=eval(input('
++ Hàm len: dùng để kiểm tra chuỗi có bao nhiêu kí tự
 
 
 

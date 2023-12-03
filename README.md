@@ -30,6 +30,9 @@ nếu k muốn trùng với từ khoá có thể thêm _ phía trc
 + {:.1f} là lấy 1 chữ số thập phân
 + Lệnh nhập dữ liệu lần lượt (nhập đồng loạt): a,b,c=eval(input('
 + Hàm len: dùng để kiểm tra chuỗi có bao nhiêu kí tự
++ S[0] in kí tự đầu tiên từ trái sang phải
++ S[-1] in kí tự đầu tiên từ phải sang t
+
 
 
 

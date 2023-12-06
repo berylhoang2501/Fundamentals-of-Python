@@ -33,7 +33,8 @@ Số thực (float)
 
 + Luận lý (boolean): chỉ trả giá trị True, False
 + Kiểu chuỗi (str)
-+ Một số lưu ý phổ biến: 
++ Một số lưu ý phổ biến:
+
 Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)
 
 Tiền vnđ luôn luôn sử dụng kiểu dữ liệu int
@@ -42,8 +43,10 @@ Chia lấy phần dư: %
 
 Chia lấy phần nguyên: //
 
-+ dấu : thông báo sắp có format phía sau
-+ {:.1f} là lấy 1 chữ số thập phân
+dấu : thông báo sắp có format phía sau
+
+{:.1f} là lấy 1 chữ số thập phân
+
 + Lệnh nhập dữ liệu lần lượt (nhập đồng loạt): a,b,c=eval(input('
 + Hàm len: dùng để kiểm tra chuỗi có bao nhiêu kí tự
 + S[0] in kí tự đầu tiên từ trái sang phải

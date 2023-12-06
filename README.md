@@ -19,6 +19,10 @@ không được chứa những kí tự đặt biệt @, #, %
 tên biến không được trùng với các từ khoá trong Python 
 nên đặt tên gọi nhớ giá trị biến lưu trữ 
 nếu k muốn trùng với từ khoá có thể thêm _ phía trc
+### Các kiểu dữ liệu cơ bản
+Kiểu số (number)
+
+
 
 + Số thực: float
 + Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)

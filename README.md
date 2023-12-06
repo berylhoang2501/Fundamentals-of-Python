@@ -13,6 +13,7 @@ cài với quyền admin, chọn all users
 ## 2/12/2023: Buổi học 1: Biến và các kiểu dữ liệu
 ### Giới thiệu về biến (tìm ra bản chất chung của bài toán, cần nhập vào giá trị gì, xuất ra giá trị gì)
 ### Định danh
+
 Tên không mở đầu bằng số
 không được chứa những kí tự đặt biệt @, #, %
 tên biến không được trùng với các từ khoá trong Python 

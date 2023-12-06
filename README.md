@@ -16,13 +16,13 @@ phiên bản python 3.12.0 mới nhất, nên cài thấp hơn 1->2 phiên. Cài
 
 Tên không mở đầu bằng số
 
-không được chứa những kí tự đặt biệt @, #, %
+Không được chứa những kí tự đặt biệt @, #, %
 
-tên biến không được trùng với các từ khoá trong Python 
+Tên biến không được trùng với các từ khoá trong Python 
 
-nên đặt tên gọi nhớ giá trị biến lưu trữ 
+Nên đặt tên gọi nhớ giá trị biến lưu trữ 
 
-nếu k muốn trùng với từ khoá có thể thêm _ phía trc
+Nếu k muốn trùng với từ khoá có thể thêm _ phía trc
 
 ### Các kiểu dữ liệu cơ bản
 + Kiểu số (number)
@@ -32,11 +32,15 @@ Số nguyên (int)
 Số thực (float)
 
 + Luận lý (boolean): chỉ trả giá trị True, False
++ Kiểu chuỗi (str)
++ Một số lưu ý phổ biến: 
+Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)
 
-+ Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)
-+ Tiền vnd: int
-+ Chia lấy phần dư: %
-+ Chia lấy phần nguyên: //
+Tiền vnđ luôn luôn sử dụng kiểu dữ liệu int
+
+Chia lấy phần dư: %
+
+Chia lấy phần nguyên: //
 
 + dấu : thông báo sắp có format phía sau
 + {:.1f} là lấy 1 chữ số thập phân

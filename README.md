@@ -6,8 +6,8 @@
 ### Xây dựng ứng dụng đầu tiên
 
 Visual studio code (cài phiên bản càng mới càng tốt, tick "open with code"), Pycharm, GG collab, Jupyter notebook
-phiên bản python 3.12.0 mới nhất, nên cài thấp hơn 1->2 phiên
-cài với quyền admin, chọn all users
+phiên bản python 3.12.0 mới nhất, nên cài thấp hơn 1->2 phiên. Cài với quyền admin, chọn all users
+
 + Lệnh xuất dữ liệu print('  ') hoặc print("   ")
 
 ## 2/12/2023: Buổi học 1: Biến và các kiểu dữ liệu
@@ -15,14 +15,22 @@ cài với quyền admin, chọn all users
 ### Định danh
 
 Tên không mở đầu bằng số
+
 không được chứa những kí tự đặt biệt @, #, %
+
 tên biến không được trùng với các từ khoá trong Python 
+
 nên đặt tên gọi nhớ giá trị biến lưu trữ 
+
 nếu k muốn trùng với từ khoá có thể thêm _ phía trc
+
 ### Các kiểu dữ liệu cơ bản
 + Kiểu số (number)
+
 Số nguyên (int)
+
 Số thực (float)
+
 + Luận lý (boolean): chỉ trả giá trị True, False
 
 + Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)

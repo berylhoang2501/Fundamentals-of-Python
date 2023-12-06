@@ -50,9 +50,16 @@ dấu : thông báo sắp có format phía sau
 + Lệnh nhập dữ liệu lần lượt (nhập đồng loạt): a,b,c=eval(input('
 + Hàm len: dùng để kiểm tra chuỗi có bao nhiêu kí tự
 + S[0] in kí tự đầu tiên từ trái sang phải
-+ S[-1] in kí tự đầu tiên từ phải sang t
++ S[-1] in kí tự đầu tiên từ phải sang trái
+
+### Chuyển đổi kiểu dữ liệu
+### Chú thích trong python
+### Các thao tác nhập/xuất (Input/Output)
 
 ## 3/12/2023: Buổi học 2: Toán tử
+### Toán tử số học (Arithmetic Operators)
+### Toán tử gán (Assignment Operators)
+### Toán tử so sánh 
 
 đối với phép toán tử so sánh chỉ có thể trả về True hoặc False
 0<x<10 bằng nghĩa x>0 and x<10
@@ -66,7 +73,7 @@ dấu : thông báo sắp có format phía sau
 + Cấu trúc if:
 + Cấu trúc if_else: dùng trong trường hợp có 2 hướng để giải quyết vấn đề, else trong trường hợp này được hiểu là ngược lại (nếu đk 1 ko đúng)
 + Cấu trúc if_elif_else:
-\
+
 
 
 

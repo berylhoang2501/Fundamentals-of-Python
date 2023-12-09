@@ -59,15 +59,28 @@ dấu : thông báo sắp có format phía sau
 ## 3/12/2023: Buổi học 2: Toán tử
 ### Toán tử số học (Arithmetic Operators)
 ### Toán tử gán (Assignment Operators)
-### Toán tử so sánh 
+### Toán tử so sánh (Comparision Operators)
 
 đối với phép toán tử so sánh chỉ có thể trả về True hoặc False
+
+### Toán tử logic (Logical Operators)
++ Toán tử "and"
+
 0<x<10 bằng nghĩa x>0 and x<10
-+ Phép "and" chỉ True khi thoả mãn được tất  cả các giả thuyết
-+ Phép "or" True khi chỉ cần 1 giả thuyết True
-+ Phép "not" là phép phủ định
-+ Hệ thập phân:
-+ Hệ nhị phân: chỉ dùng 2 số 0 và 1
+
+Phép "and" chỉ True khi thoả mãn được tất  cả các giả thuyết
+
++ Toán tử "or"
+
+Phép "or" True khi chỉ cần 1 giả thuyết True
+
++ Toán tử "not"là phép phủ định
++ Toán tử thành phần (Membership Operators) ("in" và "not in")
++ Toán tử định danh (Identity Operators) ("is" và "is not")
++ Toán tử Bitwise
+Hệ thập phân:
+
+Hệ nhị phân: chỉ dùng 2 số 0 và 1
 
 ## 3/12/2023: Buổi học 2: Cấu trúc điều kiện
 + Cấu trúc if:

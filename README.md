@@ -106,19 +106,28 @@ Phải kèm với câu lệnh để dừng lại vòng lặp
 
 Lặp với số lần biết trc
 
-Lặp theo từng phần tử trong tập hợp
+Duyệt qua từng phần tử trong 1 tập hợp
 
 + Hàm range (start, stop, step)
+
+Ví dụ: stop là 11 thì chỉ lấy 10, không lấy ngay chỗ 11
 
 Câu lệnh lặp đi lặp lại thì phải được đặt lùi vào 1 tab
 
 Câu lệnh chỉ sử dụng 1 lần thì cân nhắc thứ tự sắp xếp câu lệnh
 
+### Câu lệnh break, continue và pass
++ Break dùng khi dừng vòng lặp lại theo 1 điều kiện nhất định, phải dùng kết hợp với If
++ Continue: Bỏ qua 1 điều kiện nào đó để tiếp tục vòng lặp, phải dùng chung với If
++ Pass
+
 ### Sử dụng else với cấu trúc lặp
+
+Những câu lệnh sau else chỉ phát huy tác dụng nếu vòng lặp (cả 2 loại vòng lặp) đc chạy 1 cách trọn vẹn (khi lệnh break 
+và lệnh continue không phát huy tác dụng)
+
 + Đối với vòng lặp while: else sẽ được thực hiện khi điều kiện lặp trở thành False
 + Đối với vòng lặp for: else sẽ được thực hiện sau khi for đã duyệt xong danh sách
-
-### Câu lệnh break và continue
 
 ## 9/12/2023: Buổi học 3: Hàm_Built-in functions
 ### Hàm xử lí số học (Number)

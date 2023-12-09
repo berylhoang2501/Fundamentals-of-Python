@@ -96,14 +96,36 @@ Hệ nhị phân: chỉ dùng 2 số 0 và 1
 
 ## 9/12/2023: Buổi học 3: Cấu trúc lặp
 ### Giới thiệu
-
 ### Cấu trúc lặp
+#### Vòng lặp while
 
-### Sử dụng else trong vòng lặp
+Đảm bảo lặp  đủ số lần (n=10 thì lặp 10 lần)
+
+Phải kèm với câu lệnh để dừng lại vòng lặp 
+#### Vòng lặp for
+
+Lặp với số lần biết trc
+
+Lặp theo từng phần tử trong tập hợp
+
++ Hàm range (start, stop, step)
+
+Câu lệnh lặp đi lặp lại thì phải được đặt lùi vào 1 tab
+
+Câu lệnh chỉ sử dụng 1 lần thì cân nhắc thứ tự sắp xếp câu lệnh
+
+### Sử dụng else với cấu trúc lặp
++ Đối với vòng lặp while: else sẽ được thực hiện khi điều kiện lặp trở thành False
++ Đối với vòng lặp for: else sẽ được thực hiện sau khi for đã duyệt xong danh sách
 
 ### Câu lệnh break và continue
 
+## 9/12/2023: Buổi học 3: Hàm_Built-in functions
+### Hàm xử lí số học (Number)
 
+### Hàm xử lí chuỗi (Str)
+
+### Hàm xử lí thời gian (Datatime)
 
 
 

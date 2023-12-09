@@ -64,6 +64,7 @@ dấu : thông báo sắp có format phía sau
 đối với phép toán tử so sánh chỉ có thể trả về True hoặc False
 
 ### Toán tử logic (Logical Operators)
+
 + Toán tử "and"
 
 0<x<10 bằng nghĩa x>0 and x<10
@@ -75,17 +76,34 @@ Phép "and" chỉ True khi thoả mãn được tất  cả các giả thuyết
 Phép "or" True khi chỉ cần 1 giả thuyết True
 
 + Toán tử "not"là phép phủ định
-+ Toán tử thành phần (Membership Operators) ("in" và "not in")
-+ Toán tử định danh (Identity Operators) ("is" và "is not")
-+ Toán tử Bitwise
+### Toán tử thành phần (Membership Operators) ("in" và "not in")
+### Toán tử định danh (Identity Operators) ("is" và "is not")
+### Toán tử Bitwise
+  
 Hệ thập phân:
 
 Hệ nhị phân: chỉ dùng 2 số 0 và 1
 
+### Độ ưu tiên trong toán tử
+
 ## 3/12/2023: Buổi học 2: Cấu trúc điều kiện
+### Giới thiệu
+### Các cấu trúc điều kiện
 + Cấu trúc if:
-+ Cấu trúc if_else: dùng trong trường hợp có 2 hướng để giải quyết vấn đề, else trong trường hợp này được hiểu là ngược lại (nếu đk 1 ko đúng)
++ Cấu trúc if_else: dùng trong trường hợp có 2 hướng để giải quyết vấn đề,else trong trường hợp này được hiểu là ngược lại (nếu đk 1 ko đúng)
 + Cấu trúc if_elif_else:
+### 1 số lưu ý 
+
+## 9/12/2023: Buổi học 3: Cấu trúc lặp
+### Giới thiệu
+
+### Cấu trúc lặp
+
+### Sử dụng else trong vòng lặp
+
+### Câu lệnh break và continue
+
+
 
 
 

@@ -129,12 +129,58 @@ và lệnh continue không phát huy tác dụng)
 + Đối với vòng lặp while: else sẽ được thực hiện khi điều kiện lặp trở thành False
 + Đối với vòng lặp for: else sẽ được thực hiện sau khi for đã duyệt xong danh sách
 
-## 9/12/2023: Buổi học 3: Hàm_Built-in functions
+## 10/12/2023: Buổi học 4: Hàm_Built-in functions
 ### Hàm xử lí số học (Number)
++ Hàm toán học (import math)
+  
+ceil(x) làm tròn cận trên
 
-### Hàm xử lí chuỗi (Str)
+floor(x) làm tròn cận dưới
+
++ Hàm xử lý số ngẫu nhiên (import random)
+
+randrange: một số ngẫu nhiên trong khoảng (start, stop, step)
+
+randin: một số ngẫu nhiên trong khoảng từ start đến stop
+
+sample: giúp chúng ta phát sinh đúng số lượng trog phạm vi nhất định
+
+random: phát sinh ngẫu nhiên số thập phân trong phạm vi từ 0->1
+
+### Hàm xử lí chuỗi (String)
++ Count: đếm số lần xuất hiện của ký tự đó
++ Find: tìm vị trí đầu tiên xuất hiện, nếu tìm không thấy thì trả về giá trị -1
++ strip: loại bỏ kí tự chỉ định ở 2 đầu
++ split: tách chuỗi, sau khi tách xong thì từng phần tử sẽ chuyển thành kiểu dữ liệu list
 
 ### Hàm xử lí thời gian (Datatime)
++ Thư viện time (import time)
+
+Cần import time để sử dụng
+
+Hàm time.sleep(secs): Hàm sẽ delay chương trình theo số giây truyền vào
+
++ Thư viện datetime (import datetime)
+
+Hàm datetime.date.today(): kết quả trả về ngày hiện tại của hệ thống
+
+Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
+
++ Định dạng chuỗi
+
++ Thư viện calendar (import calendar)
+
+## 10/12/2023: Buổi học 4: Kiểu dữ liệu danh sách (Sequence)
+### Giới thiệu về Sequence
+### List
++ [ ], các phần tử trong list cách nhau bởi dấu ,
+### Tuple
+### Dictionary
+### Set
+### Các Buil-in functions xử lý Sequence
+
+
+
 
 
 

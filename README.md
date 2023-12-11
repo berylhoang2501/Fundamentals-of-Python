@@ -174,6 +174,33 @@ Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
 ### Giới thiệu về Sequence
 ### List
 + [ ], các phần tử trong list cách nhau bởi dấu ,
++ Hàm pop và remove là dùng riêng cho kiểu dữ liệu List, chỉ có hàm del là build-in functions
++ Lệnh .sort(): sắp xếp tăng dần
++ Lệnh .reverse(): sắp xếp giảm 
++ Lệnh .append(): dùng để thêm các phần tử vào 
++ Lệnh .join(): dùng để nối các phần tử trong list lại với
++ Lệnh .pop(): xoá phần tử trong list theo vị trí index
++ Lệnh del
++ Lệnh remove: sử dụng remove để xoá (xoá thông qua giá trị cụ thể), nếu trong chuỗi có 2 giá trị giống nhau thì mặc định xoá phần tử đầu tiên
++ Lệnh .insert(-1,31) #(vị trí, giá trị cần thêm)
++ Lệnh cập nhât lại giá trị list_so[5]=-5
++ List comprehension
+
+Vai trò 1: tạo ra list mới bằng cách tác động lên các phần tử trong list cũ
+
+Vai trò 2: lọc theo các phần tử để thoả mãn những điều kiện nhất định
+
+Vai trò 3: thay thế phần tử này bằng phần tử khác nếu không thoả mãn điều kiện (số lượng phần tử được giữ nguyên)
+
++ Trong vai trò 3: theo sau x là điều kiện pt đc giữ lại, theo sau else là giá trị thay thế
+
+
+
+
+
+
+
+
 ### Tuple
 ### Dictionary
 ### Set

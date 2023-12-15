@@ -102,6 +102,7 @@ Hệ nhị phân: chỉ dùng 2 số 0 và 1
 Đảm bảo lặp  đủ số lần (n=10 thì lặp 10 lần)
 
 Phải kèm với câu lệnh để dừng lại vòng lặp 
+
 #### Vòng lặp for
 
 Lặp với số lần biết trc
@@ -116,6 +117,11 @@ Câu lệnh lặp đi lặp lại thì phải được đặt lùi vào 1 tab
 
 Câu lệnh chỉ sử dụng 1 lần thì cân nhắc thứ tự sắp xếp câu lệnh
 
++ rstrip: loại bỏ các khoảng trắng (hoặc các ký tự không cần thiết khác) ở cuối chuỗi
++ y+1 trong range(x,y+1) để bao gồm cả giá trị của y trong phạm vi tính toán. Lý do: nếu không sử dụng +1 thì ngoặc ) sẽ không lấy giá trị cuối 
++ end='\t' làm cho các kí tự in ra cách nhau bởi 1 tab, tạo thành bảng cửu chương theo cột
++ print('\n') là in ra một dòng mới, đảm bảo rằng mỗi hàng của bảng cửu chương được in ra sẽ nằm trên một dòng mới
+
 ### Câu lệnh break, continue và pass
 + Break dùng khi dừng vòng lặp lại theo 1 điều kiện nhất định, phải dùng kết hợp với If
 + Continue: Bỏ qua 1 điều kiện nào đó để tiếp tục vòng lặp, phải dùng chung với If
@@ -129,12 +135,85 @@ và lệnh continue không phát huy tác dụng)
 + Đối với vòng lặp while: else sẽ được thực hiện khi điều kiện lặp trở thành False
 + Đối với vòng lặp for: else sẽ được thực hiện sau khi for đã duyệt xong danh sách
 
-## 9/12/2023: Buổi học 3: Hàm_Built-in functions
+## 10/12/2023: Buổi học 4: Hàm_Built-in functions
 ### Hàm xử lí số học (Number)
++ Hàm toán học (import math)
+  
+ceil(x) làm tròn cận trên
 
-### Hàm xử lí chuỗi (Str)
+floor(x) làm tròn cận dưới
+
++ Hàm xử lý số ngẫu nhiên (import random)
+
+randrange: một số ngẫu nhiên trong khoảng (start, stop, step)
+
+randin: một số ngẫu nhiên trong khoảng từ start đến stop
+
+sample: giúp chúng ta phát sinh đúng số lượng trog phạm vi nhất định
+
+random: phát sinh ngẫu nhiên số thập phân trong phạm vi từ 0->1
+
+### Hàm xử lí chuỗi (String)
++ Count: đếm số lần xuất hiện của ký tự đó
++ Find: tìm vị trí đầu tiên xuất hiện, nếu tìm không thấy thì trả về giá trị -1
++ strip: loại bỏ kí tự chỉ định ở 2 đầu
++ split: tách chuỗi, sau khi tách xong thì từng phần tử sẽ chuyển thành kiểu dữ liệu list
 
 ### Hàm xử lí thời gian (Datatime)
++ Thư viện time (import time)
+
+Cần import time để sử dụng
+
+Hàm time.sleep(secs): Hàm sẽ delay chương trình theo số giây truyền vào
+
++ Thư viện datetime (import datetime)
+
+Hàm datetime.date.today(): kết quả trả về ngày hiện tại của hệ thống
+
+Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
+
++ Định dạng chuỗi
+
++ Thư viện calendar (import calendar)
+
+## 10/12/2023: Buổi học 4: Kiểu dữ liệu danh sách (Sequence)
+### Giới thiệu về Sequence
+### List
++ [ ], các phần tử trong list cách nhau bởi dấu ,
++ Hàm pop và remove là dùng riêng cho kiểu dữ liệu List, chỉ có hàm del là build-in functions
++ Lệnh .sort(): sắp xếp tăng dần
++ Lệnh .reverse(): sắp xếp giảm 
++ Lệnh .append(): dùng để thêm các phần tử vào 
++ Lệnh .join(): dùng để nối các phần tử trong list lại với
++ Lệnh .pop(): xoá phần tử trong list theo vị trí index
++ Lệnh del
++ Lệnh remove: sử dụng remove để xoá (xoá thông qua giá trị cụ thể), nếu trong chuỗi có 2 giá trị giống nhau thì mặc định xoá phần tử đầu tiên
++ Lệnh .insert(-1,31) #(vị trí, giá trị cần thêm)
++ Lệnh cập nhât lại giá trị list_so[5]=-5
++ List comprehension
+
+Vai trò 1: tạo ra list mới bằng cách tác động lên các phần tử trong list cũ
+
+Vai trò 2: lọc theo các phần tử để thoả mãn những điều kiện nhất định
+
+Vai trò 3: thay thế phần tử này bằng phần tử khác nếu không thoả mãn điều kiện (số lượng phần tử được giữ nguyên)
+
++ Trong vai trò 3: theo sau x là điều kiện pt đc giữ lại, theo sau else là giá trị thay thế
+
+
+
+
+
+
+
+
+### Tuple
+### Dictionary
+### Set
+### Các Buil-in functions xử lý Sequence
+
+
+
 
 
 

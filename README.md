@@ -1,4 +1,4 @@
-# Fundamentals-of-Python
+# Fundamentals-of-Python.
 ## 2/12/2023: Buổi học 1: Tổng quan về lập trình Python
 ### Các khái niệm về lập trình
 ### Giới thiệu về Python

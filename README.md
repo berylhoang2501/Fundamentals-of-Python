@@ -102,6 +102,7 @@ Hệ nhị phân: chỉ dùng 2 số 0 và 1
 Đảm bảo lặp  đủ số lần (n=10 thì lặp 10 lần)
 
 Phải kèm với câu lệnh để dừng lại vòng lặp 
+
 #### Vòng lặp for
 
 Lặp với số lần biết trc
@@ -115,6 +116,11 @@ Ví dụ: stop là 11 thì chỉ lấy 10, không lấy ngay chỗ 11
 Câu lệnh lặp đi lặp lại thì phải được đặt lùi vào 1 tab
 
 Câu lệnh chỉ sử dụng 1 lần thì cân nhắc thứ tự sắp xếp câu lệnh
+
++ rstrip: loại bỏ các khoảng trắng (hoặc các ký tự không cần thiết khác) ở cuối chuỗi
++ y+1 trong range(x,y+1) để bao gồm cả giá trị của y trong phạm vi tính toán. Lý do: nếu không sử dụng +1 thì ngoặc ) sẽ không lấy giá trị cuối 
++ end='\t' làm cho các kí tự in ra cách nhau bởi 1 tab, tạo thành bảng cửu chương theo cột
++ print('\n') là in ra một dòng mới, đảm bảo rằng mỗi hàng của bảng cửu chương được in ra sẽ nằm trên một dòng mới
 
 ### Câu lệnh break, continue và pass
 + Break dùng khi dừng vòng lặp lại theo 1 điều kiện nhất định, phải dùng kết hợp với If

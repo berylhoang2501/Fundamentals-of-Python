@@ -190,6 +190,10 @@ Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
 + Lệnh remove: sử dụng remove để xoá (xoá thông qua giá trị cụ thể), nếu trong chuỗi có 2 giá trị giống nhau thì mặc định xoá phần tử đầu tiên
 + Lệnh .insert(-1,31) #(vị trí, giá trị cần thêm)
 + Lệnh cập nhât lại giá trị list_so[5]=-5
++ Lệnh .lower(): chuyển đổi chuổi nhập vào thành chữ thường
++ .randint(a,b): tạo 1 số nguyên ngẫu nhiên trong khoảng từ a->b và lưu vào biến
++ .append(x): thêm 1 phần tử vào cuối list
+
 + List comprehension
 
 Vai trò 1: tạo ra list mới bằng cách tác động lên các phần tử trong list cũ
@@ -200,18 +204,53 @@ Vai trò 3: thay thế phần tử này bằng phần tử khác nếu không th
 
 + Trong vai trò 3: theo sau x là điều kiện pt đc giữ lại, theo sau else là giá trị thay thế
 
-
-
-
-
-
-
-
+## 16/12/2023: Buổi học 5: Kiểu dữ liệu danh sách (Sequence) (continue)
 ### Tuple
+
+Dùng cho những dữ liệu cố định, k thể thay đổi (ví dụ: 12 tháng, 7 ngày trong tuần) thì dùng tuple để lưu trữ
+
+Cú pháp: (phan_tu1,phan_tu2)
+
+Tuple có bao nhiêu xài bấy nhiêu, không sử dụng thêm các lệnh thêm, xoá, sửa
+
 ### Dictionary
-### Set
++ key:value , key không thể trùng, value nên cho vào list để dễ quản lý
++ {}
++ một bộ key:value mới được coi là 1 phần tử
++ Giá trị nào không được phép trùng nhau thì tạo thành key, những giá trị còn lại thì chọn làm value
++ value number thì không cần lm gì cả, value string thì đặt trong dấu nháy đơn
+
+### Set (tập hợp)
+
+Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê không quan trọng 
+
++ Tác dụng: loại bỏ các phần tử trùng nhau
++ Chỉ gồm value, cú pháp {set1, set_2,..,}
++ Thêm 1 phần tử trong set: add
++ Thêm nhiều phần tử trong set: update
++ Xoá thì dùng lệnh discard, remove: xoá thông qua gía trị (nếu giá trị đó không tồn tại thì hàm remove sẽ báo lỗi ngay)
++ Lệnh .clear (): Xoá giá trị của các phần tử khác với del: xoá ra khỏi bộ nhớ
++ .pop() : lấy phần tử ra khỏi set, lấy random, nếu cố tình truyền giá trị sẽ báo lỗi
++ Sắp xếp phân tử: dùng sorted (built-in function), có thể dùng cho nhiều kiểu dữ liệu khác nhau
+
+#### Các toán tử và phương thức trên set
++ Set Union (phép hơp): đổ chung tất cả các phần tử vô chung
++ Set Intersection (phép giao): lấy phần giống nhau giữa 2 set
++ Set Difference (phép hiệu)L lấy ra các phần tử riêng biệt (thuộc tập hợp này-là tập hợp đứng trc dấu trừ mà không thuộc tập hợp kia)
++ Set Symetric difference (phép bù)
+
 ### Các Buil-in functions xử lý Sequence
 
+## 16/12/2023: Buổi học 5: Hàm - User-defined Functions
+### Định nghĩa
+### Xây dựng hàm
+
+def tên hàm([  ]) (lưu ý: nguyên tắc đặt tên giống tên biến), nếu như chỉ in dữ liệu thì không cần return, để tính toán thì phải có return
+
+### Gọi hàm 
+### Phạm vi của biến
+### Tham số
+### Hàm lambda
 
 
 

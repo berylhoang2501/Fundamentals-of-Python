@@ -184,7 +184,7 @@ Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
 + Lệnh .sort(): sắp xếp tăng dần
 + Lệnh .reverse(): sắp xếp giảm 
 + Lệnh .append(): dùng để thêm các phần tử vào 
-+ Lệnh .join(): dùng để nối các phần tử trong list lại với
++ Lệnh .join(): dùng để nối các phần tử trong list lại với nhau
 + Lệnh .pop(): xoá phần tử trong list theo vị trí index
 + Lệnh del
 + Lệnh remove: sử dụng remove để xoá (xoá thông qua giá trị cụ thể), nếu trong chuỗi có 2 giá trị giống nhau thì mặc định xoá phần tử đầu tiên
@@ -240,17 +240,41 @@ Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê 
 + Set Symetric difference (phép bù)
 
 ### Các Buil-in functions xử lý Sequence
-
-## 16/12/2023: Buổi học 5: Hàm - User-defined Functions
++ map(): tạo sequences mới dựa trên 1 phương thức và sequence cũ
++ filter(function,sequence: chỉ trả về True và False, True là giữa lại , False là loại bỏ
++ reduce (): thưởng chỉ tác động lên 2 phần tử. inport functools để sử dụng reduce()
+## 17/12/2023: Buổi học 5: Hàm - User-defined Functions
 ### Định nghĩa
 ### Xây dựng hàm
 
 def tên hàm([  ]) (lưu ý: nguyên tắc đặt tên giống tên biến), nếu như chỉ in dữ liệu thì không cần return, để tính toán thì phải có return
 
+Đa số những bài tập liên quan tới xử lý dãy số thì dùng kiểu dữ liệu list
+
 ### Gọi hàm 
 ### Phạm vi của biến
++ Biến toàn cục, có giá trị trong toàn bộ ctrinh
+
+Muốn sử dụng lại biến toàn cục thì trước đó phải thêm từ khoá global 
+
++ Biến cục bộ, chỉ có giá trị trong hàm
+
 ### Tham số
-### Hàm lambda
++ Tham trị (number,str)
++ Tham số (list,tuple,dict,set) nhưng hầu như ko làm việc với tuple. Dict và list sẽ phổ biến nhất
+#### Có 4 kiểu tham số
++ Tham số bắt buộc: phải truyền đủ số lượng và đúng thứ tự
++ Tham số từ khoá: phải truyền đủ số lượng, k cần đúng thứ tự. Phải nhớ tham số đó trong hàm đã đc đặt tên là gì
++ Tham số mặc định: đảm bảo cho đoạn code chạy trơn tru, đối với những gía trị hay dùng thì được phép nhập nhanh (ví dụ: đặt số lương 1 ly là tham số mặc định)
++ Tham số không xác định(chưa biết số lượng chính sác): 1 dấu sao là list, 2 dấu sao là dictionary
+
+### Hàm lambda (hàm ẩn danh)
++ Áp dụng cho những hàm chỉ có 1 giá trị trả về và 1 câu lệnh duy nhất
+
++ Phía sau lambda cho biết có bao nhiêu tham số truyền vào hàm
++ Cú pháp: lambda[argument1,2]
+
+  
 
 
 

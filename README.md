@@ -117,6 +117,8 @@ Câu lệnh lặp đi lặp lại thì phải được đặt lùi vào 1 tab
 
 Câu lệnh chỉ sử dụng 1 lần thì cân nhắc thứ tự sắp xếp câu lệnh
 
+Vòng lặp for bên ngoài biểu diễn số hàng, vòng lặp for bên trong biểu diễn số cột
+
 + rstrip: loại bỏ các khoảng trắng (hoặc các ký tự không cần thiết khác) ở cuối chuỗi
 + y+1 trong range(x,y+1) để bao gồm cả giá trị của y trong phạm vi tính toán. Lý do: nếu không sử dụng +1 thì ngoặc ) sẽ không lấy giá trị cuối 
 + end='\t' làm cho các kí tự in ra cách nhau bởi 1 tab, tạo thành bảng cửu chương theo cột
@@ -135,13 +137,30 @@ và lệnh continue không phát huy tác dụng)
 + Đối với vòng lặp while: else sẽ được thực hiện khi điều kiện lặp trở thành False
 + Đối với vòng lặp for: else sẽ được thực hiện sau khi for đã duyệt xong danh sách
 
+### Sự khác nhau giữa vòng lặp while và for
++ Cú pháp:
+
+while điều_kiện:       
+
+for phan_tu in tap_hop_du_lieu:
+
++ while sử dụng điều kiện để kiểm tra và for sử dụng một tập hợp dữ liệu cụ thể để lặp qua.
+
 ## 10/12/2023: Buổi học 4: Hàm_Built-in functions
 ### Hàm xử lí số học (Number)
 + Hàm toán học (import math)
   
-ceil(x) làm tròn cận trên
+math.ceil(x): làm tròn cận trên
 
-floor(x) làm tròn cận dưới
+math.floor(x): làm tròn cận dưới
+
+max(x1,x2,..,xn): giá trị lớn nhất trong các tham số x
+
+min(x1,x2,..,xn): giá trị nhỏ nhất trong các tham số x
+
+math.pow(x,y): x mủ y
+
+math.sqrt(x): căn bậc 2 của x 
 
 + Hàm xử lý số ngẫu nhiên (import random)
 
@@ -158,6 +177,7 @@ random: phát sinh ngẫu nhiên số thập phân trong phạm vi từ 0->1
 + Find: tìm vị trí đầu tiên xuất hiện, nếu tìm không thấy thì trả về giá trị -1
 + strip: loại bỏ kí tự chỉ định ở 2 đầu
 + split: tách chuỗi, sau khi tách xong thì từng phần tử sẽ chuyển thành kiểu dữ liệu list
++ .joint: nối các đối tượng chuỗi với nhau
 
 ### Hàm xử lí thời gian (Datatime)
 + Thư viện time (import time)
@@ -172,9 +192,13 @@ Hàm datetime.date.today(): kết quả trả về ngày hiện tại của hệ
 
 Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
 
+Hàm datetime.datetime.now(): Kết quả trả về ngày giờ hiện tại của hệ thống
+
 + Định dạng chuỗi
 
 + Thư viện calendar (import calendar)
+
+Hàm calendar.weekday(year, month, day): kết quả trả về thứ, ngày, tháng, năm với giá trị số (0 là monday, 1 là tuesday,..)
 
 ## 10/12/2023: Buổi học 4: Kiểu dữ liệu danh sách (Sequence)
 ### Giới thiệu về Sequence
@@ -194,7 +218,7 @@ Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
 + .randint(a,b): tạo 1 số nguyên ngẫu nhiên trong khoảng từ a->b và lưu vào biến
 + .append(x): thêm 1 phần tử vào cuối list
 
-+ List comprehension
+#### List comprehension
 
 Vai trò 1: tạo ra list mới bằng cách tác động lên các phần tử trong list cũ
 
@@ -203,6 +227,7 @@ Vai trò 2: lọc theo các phần tử để thoả mãn những điều kiện
 Vai trò 3: thay thế phần tử này bằng phần tử khác nếu không thoả mãn điều kiện (số lượng phần tử được giữ nguyên)
 
 + Trong vai trò 3: theo sau x là điều kiện pt đc giữ lại, theo sau else là giá trị thay thế
+
 
 ## 16/12/2023: Buổi học 5: Kiểu dữ liệu danh sách (Sequence) (continue)
 ### Tuple

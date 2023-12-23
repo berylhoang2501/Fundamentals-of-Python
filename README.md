@@ -266,8 +266,10 @@ Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê 
 
 ### Các Buil-in functions xử lý Sequence
 + map(): tạo sequences mới dựa trên 1 phương thức và sequence cũ
-+ filter(function,sequence: chỉ trả về True và False, True là giữa lại , False là loại bỏ
++ filter(function,sequence: chỉ trả về True và False, True là giữ lại , False là loại bỏ
 + reduce (): thưởng chỉ tác động lên 2 phần tử. inport functools để sử dụng reduce()
+
+
 ## 17/12/2023: Buổi học 5: Hàm - User-defined Functions
 ### Định nghĩa
 ### Xây dựng hàm

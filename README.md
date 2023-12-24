@@ -270,13 +270,16 @@ Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê 
 + reduce (): thưởng chỉ tác động lên 2 phần tử. inport functools để sử dụng reduce()
 
 
-## 17/12/2023: Buổi học 5: Hàm - User-defined Functions
+## 17/12/2023: Buổi học 6: Hàm - User-defined Functions
 ### Định nghĩa
 ### Xây dựng hàm
 
 def tên hàm([  ]) (lưu ý: nguyên tắc đặt tên giống tên biến), nếu như chỉ in dữ liệu thì không cần return, để tính toán thì phải có return
 
 Đa số những bài tập liên quan tới xử lý dãy số thì dùng kiểu dữ liệu list
+
++ vừa key vừa value thì dùng for
++ làm việc với key không thì dùng if
 
 ### Gọi hàm 
 ### Phạm vi của biến
@@ -297,12 +300,19 @@ Muốn sử dụng lại biến toàn cục thì trước đó phải thêm từ
 
 ### Hàm lambda (hàm ẩn danh)
 + Áp dụng cho những hàm chỉ có 1 giá trị trả về và 1 câu lệnh duy nhất
-
 + Phía sau lambda cho biết có bao nhiêu tham số truyền vào hàm
 + Cú pháp: lambda[argument1,2]
 
-  
+## 23/12/2023: Buổi học 7: Tập tin - Thư mục
+### Làm việc với tập tin văn bản
++ tổ chức dưới dạng module
++ utf-8: mã để đọc những loại ngôn ngữ có dấu
++ f.read: 1 lần đọc xong hết nội dung file
++ 
+### Làm việc với tập tin CSV
+### Thư viện OS
 
+btvn số 2 3 4
 
 
 

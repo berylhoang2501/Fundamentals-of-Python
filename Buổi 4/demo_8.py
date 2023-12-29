@@ -1,0 +1,10 @@
+list_so=[0,9,7,54,28,38,29,89,65,78,27]
+print('Tổng các phần tử: ',sum(list_so))
+print('Số lượng phần tử của list: ',len(list_so))
+print('GTTB: {:.1f}'.format(sum(list_so)/len(list_so)))
+print('GTLN: ',max(list_so))
+print('GTNN: ',min(list_so))
+list_so.sort()
+print('List sắp xếp tăng dần: ',list_so)
+list_so.reverse()
+print('List sắp xếp giảm dần: ',list_so)

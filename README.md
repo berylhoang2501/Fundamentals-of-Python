@@ -308,7 +308,8 @@ Muốn sử dụng lại biến toàn cục thì trước đó phải thêm từ
 + tổ chức dưới dạng module
 + utf-8: mã để đọc những loại ngôn ngữ có dấu
 + f.read: 1 lần đọc xong hết nội dung file
-+ 
++ f.close(): dừng việc đang làm và lưu lại file
++ return content: trả về biến content
 ### Làm việc với tập tin CSV
 ### Thư viện OS
 

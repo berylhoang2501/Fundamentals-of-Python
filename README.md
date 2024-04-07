@@ -315,16 +315,49 @@ Muốn sử dụng lại biến toàn cục thì trước đó phải thêm từ
 + Cú pháp: lambda[argument1,2]
 
 ## 23/12/2023: Buổi học 7: Tập tin - Thư mục
-### Làm việc với tập tin văn bản
+
+**1. Làm việc với tập tin văn bản**
+
 + tổ chức dưới dạng module
 + utf-8: mã để đọc những loại ngôn ngữ có dấu
 + f.read: 1 lần đọc xong hết nội dung file
 + f.close(): dừng việc đang làm và lưu lại file
 + return content: trả về biến content
-### Làm việc với tập tin CSV
-### Thư viện OS
 
-btvn số 2 3 4
+***Mở file***
+
+fileObject = open(fileName [, accessMode] [, encoding='utf-8'])
+
+f= open('van_ban_2.txt', mode='r', encoding='utf-8')
+
+trong đó, fileName: tên file sẽ truy cập
+
+<img width="1067" alt="Ảnh màn hình 2024-04-07 lúc 13 53 31" src="https://github.com/berylhoang2501/Fundamentals-of-Python/assets/152646327/5312be1e-881d-48ff-9f9d-ed6e7a82fddc">
+
+***Đọc file***
+
+Sử dụng phương thức read ()
+
+- noi_dung = f.read()
+
+- noi_dung = f.readline(): cho phép đọc mỗi lần một dòng có trong file, trong đó ký tự xuống dòng ('\n') sẽ được đọc và ở cuối của chuỗi kết quả.
+
+- noi_dung = f.readlines(): được dùng để đọc tất cả các dòng 1lần và sau đó trả về dưới dạng mỗi dòng là một phần tử trong list. Ký tự xuống
+dòng ('\n') sẽ được đọc và ởcuối của từng chuỗi kết quả.
+
+***Ghi file***
+
+Sử dụng phương thức write() hoặc writelines()
+
+- f.writelines(danh_sach_noi_dung)
+
+***Đóng file***
+
+- f. close()
+
+**2. Làm việc với tập tin CSV**
+  
+**3. Thư viện OS**
 
 
 

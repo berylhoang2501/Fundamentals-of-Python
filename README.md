@@ -355,8 +355,30 @@ Sử dụng phương thức write() hoặc writelines()
 
 - f. close()
 
+## 24/12/2023: Buổi học 8: Tập tin - Thư mục (cont)
+
 **2. Làm việc với tập tin CSV**
-  
+
+***Đọc file***
+
+- csv.reader(csvfile[, delimiter])
+
+***Ghi file***
+
+Cú pháp:
+
+Tạo file object:
+
+- fileobject =open(csvfile, mode= 'w', newline = ")
+
+Tạo csvwriter object:
+
+- csvWriterObject = csv.writer(fileObject)
+
+Ghi 1dòng dữ liệu vào csvwriter object:
+
+- csvWriter0bject.writerow(list0bject)
+
 **3. Thư viện OS**
 
 

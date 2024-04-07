@@ -267,9 +267,18 @@ Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê 
 + Set Symetric difference (phép bù)
 
 **6. Các Buil-in functions xử lý Sequence**
+
+3 built-in functions sau đều được dùng kết hợp với lambda 
+
 + map(): tạo sequences mới dựa trên 1 phương thức và sequence cũ
-+ filter(function,sequence: chỉ trả về True và False, True là giữ lại , False là loại bỏ
-+ reduce (): thưởng chỉ tác động lên 2 phần tử. inport functools để sử dụng reduce()
+
+Có thể kết hợp với thư viện operator, truyền vào sub(cộng), mul(nhân) để thực hiện các tính toán cơ bản
+
+
++ filter(function,sequence), dùng để lọc các item trong sequence, tạo ra một sequence mới với các item thoả đk của function
+
+
++ reduce (function,sequence) -> value: thưởng chỉ tác động lên 2 phần tử. inport functools để sử dụng reduce()
 
 
 ## 17/12/2023: Buổi học 6: Hàm - User-defined Functions

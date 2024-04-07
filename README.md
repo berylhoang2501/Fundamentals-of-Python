@@ -96,6 +96,7 @@ Hệ nhị phân: chỉ dùng 2 số 0 và 1
 
 ## 9/12/2023: Buổi học 3: Cấu trúc lặp
 **1. Giới thiệu**
+
 **2. Cấu trúc lặp**
 #### Vòng lặp while
 

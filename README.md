@@ -202,8 +202,9 @@ Hàm datetime.datetime.now(): Kết quả trả về ngày giờ hiện tại c�
 Hàm calendar.weekday(year, month, day): kết quả trả về thứ, ngày, tháng, năm với giá trị số (0 là monday, 1 là tuesday,..)
 
 ## 10/12/2023: Buổi học 4: Kiểu dữ liệu danh sách (Sequence)
-### Giới thiệu về Sequence
-### List
+**1. Giới thiệu về Sequence**
+
+**2. List**
 + [ ], các phần tử trong list cách nhau bởi dấu ,
 + Hàm pop và remove là dùng riêng cho kiểu dữ liệu List, chỉ có hàm del là build-in functions
 + Lệnh .sort(): sắp xếp tăng dần
@@ -231,7 +232,7 @@ Vai trò 3: thay thế phần tử này bằng phần tử khác nếu không th
 
 
 ## 16/12/2023: Buổi học 5: Kiểu dữ liệu danh sách (Sequence) (continue)
-### Tuple
+**3. Tuple**
 
 Dùng cho những dữ liệu cố định, k thể thay đổi (ví dụ: 12 tháng, 7 ngày trong tuần) thì dùng tuple để lưu trữ
 
@@ -239,14 +240,14 @@ Cú pháp: (phan_tu1,phan_tu2)
 
 Tuple có bao nhiêu xài bấy nhiêu, không sử dụng thêm các lệnh thêm, xoá, sửa
 
-### Dictionary
+**4. Dictionary**
 + key:value , key không thể trùng, value nên cho vào list để dễ quản lý
 + {}
 + một bộ key:value mới được coi là 1 phần tử
 + Giá trị nào không được phép trùng nhau thì tạo thành key, những giá trị còn lại thì chọn làm value
 + value number thì không cần lm gì cả, value string thì đặt trong dấu nháy đơn
 
-### Set (tập hợp)
+**5. Set (tập hợp)**
 
 Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê không quan trọng 
 
@@ -265,7 +266,7 @@ Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê 
 + Set Difference (phép hiệu)L lấy ra các phần tử riêng biệt (thuộc tập hợp này-là tập hợp đứng trc dấu trừ mà không thuộc tập hợp kia)
 + Set Symetric difference (phép bù)
 
-### Các Buil-in functions xử lý Sequence
+**6. Các Buil-in functions xử lý Sequence**
 + map(): tạo sequences mới dựa trên 1 phương thức và sequence cũ
 + filter(function,sequence: chỉ trả về True và False, True là giữ lại , False là loại bỏ
 + reduce (): thưởng chỉ tác động lên 2 phần tử. inport functools để sử dụng reduce()

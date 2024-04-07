@@ -95,8 +95,8 @@ Hệ nhị phân: chỉ dùng 2 số 0 và 1
 ### 1 số lưu ý 
 
 ## 9/12/2023: Buổi học 3: Cấu trúc lặp
-### Giới thiệu
-### Cấu trúc lặp
+**1. Giới thiệu**
+**2. Cấu trúc lặp**
 #### Vòng lặp while
 
 Đảm bảo lặp  đủ số lần (n=10 thì lặp 10 lần)
@@ -124,12 +124,12 @@ Vòng lặp for bên ngoài biểu diễn số hàng, vòng lặp for bên trong
 + end='\t' làm cho các kí tự in ra cách nhau bởi 1 tab, tạo thành bảng cửu chương theo cột
 + print('\n') là in ra một dòng mới, đảm bảo rằng mỗi hàng của bảng cửu chương được in ra sẽ nằm trên một dòng mới
 
-### Câu lệnh break, continue và pass
+**3. Câu lệnh break, continue và pass**
 + Break dùng khi dừng vòng lặp lại theo 1 điều kiện nhất định, phải dùng kết hợp với If
 + Continue: Bỏ qua 1 điều kiện nào đó để tiếp tục vòng lặp, phải dùng chung với If
 + Pass
 
-### Sử dụng else với cấu trúc lặp
+**4. Sử dụng else với cấu trúc lặp**
 
 Những câu lệnh sau else chỉ phát huy tác dụng nếu vòng lặp (cả 2 loại vòng lặp) đc chạy 1 cách trọn vẹn (khi lệnh break 
 và lệnh continue không phát huy tác dụng)

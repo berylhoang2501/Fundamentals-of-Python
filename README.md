@@ -381,6 +381,16 @@ Ghi 1dòng dữ liệu vào csvwriter object:
 
 **3. Thư viện OS**
 
+## 30/12/2023: Buổi học 9: Module - Package
+
+**1. Module**
+
+**2. Package**
+
+**3. Một số module có sẵn trong Python**
+
+**4. Cài đặt và quản lý package với pip**
+
 
 
 

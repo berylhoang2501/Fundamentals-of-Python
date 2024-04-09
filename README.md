@@ -397,8 +397,9 @@ Một số lệnh PIP cơ bản:
 - Cài đặt package: pip install ‹package_name>
 - Xem chi tiết package đã cài đặt: pip show ‹package_name>
 - Liệt kê tất cả các package đã cài đặt: pip list
-- Liệt kê tất cả các package đã lỗi thời: pip list --outdated • Nâng cấp package đã lỗi thời: pip install ‹package_name> python
-- Gỡ bỏ package: • ...
+- Liệt kê tất cả các package đã lỗi thời: pip list --outdated
+- Nâng cấp package đã lỗi thời: pip install ‹package_name> --upgrade
+- Gỡ bỏ package: pip uninstall ‹package_name>
 
 
 

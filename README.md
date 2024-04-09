@@ -391,8 +391,14 @@ Ghi 1dòng dữ liệu vào csvwriter object:
 
 **4. Cài đặt và quản lý package với pip**
 
+PIP là một trình quản lý thư viện cho Python (viết tắt của từ Preferred Installer Program). Đây là một tiện ích dòng lệnh cho phép bạn cài đặt, cài đặt lại hoặc gỡ cài đặt các gói PyPl.
 
-
+Một số lệnh PIP cơ bản:
+- Cài đặt package: pip install ‹package_name>
+- Xem chi tiết package đã cài đặt: pip show ‹package_name>
+- Liệt kê tất cả các package đã cài đặt: pip list
+- Liệt kê tất cả các package đã lỗi thời: pip list --outdated • Nâng cấp package đã lỗi thời: pip install ‹package_name> python
+- Gỡ bỏ package: • ...
 
 
 

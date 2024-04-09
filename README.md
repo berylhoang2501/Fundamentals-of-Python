@@ -1,4 +1,4 @@
-# Fundamentals-of-Python.
+<img width="1130" alt="Ảnh màn hình 2024-04-09 lúc 21 34 15" src="https://github.com/berylhoang2501/Fundamentals-of-Python/assets/152646327/c031ec63-b944-431d-87ba-72ce22ae29d1"># Fundamentals-of-Python.
 ## 2/12/2023: Buổi học 1: Tổng quan về lập trình Python
 ### Các khái niệm về lập trình
 ### Giới thiệu về Python
@@ -401,9 +401,20 @@ Một số lệnh PIP cơ bản:
 - Nâng cấp package đã lỗi thời: pip install ‹package_name> --upgrade
 - Gỡ bỏ package: pip uninstall ‹package_name>
 
+## 31/12/2023: Buổi học 10: Xử lý ngoại lệ
+**1 Giới thiệu**
 
+- Trong Python, các ngoại lệ có thể được xử lý bằng khối lệnh try... except...
 
+**2. Xử lý ngoại lệ trong Python**
 
+- Cú pháp: try... except... else...
+
+<img width="1130" alt="Ảnh màn hình 2024-04-09 lúc 21 34 15" src="https://github.com/berylhoang2501/Fundamentals-of-Python/assets/152646327/784c8ee4-be29-4212-9c9e-aff1ba38d17b">
+
+- Cú pháp: try.... finally... (Khi ta muốn thực thi khối lệnh trong finally dù cho có lỗi xảy ra trong try hay không.)
+
+<img width="763" alt="Ảnh màn hình 2024-04-09 lúc 21 35 56" src="https://github.com/berylhoang2501/Fundamentals-of-Python/assets/152646327/64be8897-6ee6-49d8-beb2-f0bcd947590b">
 
 
 

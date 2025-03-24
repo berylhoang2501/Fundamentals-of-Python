@@ -25,6 +25,9 @@ Nên đặt tên gọi nhớ giá trị biến lưu trữ
 Nếu k muốn trùng với từ khoá có thể thêm _ phía trc
 
 ### Các kiểu dữ liệu cơ bản
+
+<img width="662" alt="Ảnh màn hình 2025-03-24 lúc 14 22 27" src="https://github.com/user-attachments/assets/f060f8fd-c77d-4830-b468-828bc9ca3581" />
+
 + Kiểu số (number)
 
 Số nguyên (int)

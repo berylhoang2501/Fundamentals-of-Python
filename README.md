@@ -61,6 +61,12 @@ dấu : thông báo sắp có format phía sau
 
 <img width="565" alt="Ảnh màn hình 2025-03-25 lúc 20 45 57" src="https://github.com/user-attachments/assets/d50226b9-1010-4cb2-b36d-4109f69d7437" />
 
+<img width="576" alt="Ảnh màn hình 2025-03-26 lúc 02 05 28" src="https://github.com/user-attachments/assets/c6e1366f-9e1a-479c-a2ad-bf26bc9d4a9d" />
+
+{:,.0f} -> :, là format Phân cách hàng nghìn
+
+-> .0f là format Phân cách thập phân
+
 ## 3/12/2023: Buổi học 2: Toán tử
 ### Toán tử số học (Arithmetic Operators)
 ### Toán tử gán (Assignment Operators)

@@ -35,10 +35,10 @@ Số nguyên (int)
 Số thực (float)
 
 + Luận lý (boolean): chỉ trả giá trị True, False
-+ Kiểu chuỗi (str)
++ Kiểu chuỗi (str). Là một chuỗi ký tự được đặt trong nháy kép (" ") hoặc nháy đơn (* '). vi dụ:  name = "Trung tâm Tin học"
 + Một số lưu ý phổ biến:
 
-Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu)
+Chữ: str (không cần nhập str vô câu lệnh vì máy sẽ tự hiểu). 
 
 Tiền vnđ luôn luôn sử dụng kiểu dữ liệu int
 
@@ -58,6 +58,8 @@ dấu : thông báo sắp có format phía sau
 ### Chuyển đổi kiểu dữ liệu
 ### Chú thích trong python
 ### Các thao tác nhập/xuất (Input/Output)
+
+<img width="565" alt="Ảnh màn hình 2025-03-25 lúc 20 45 57" src="https://github.com/user-attachments/assets/d50226b9-1010-4cb2-b36d-4109f69d7437" />
 
 ## 3/12/2023: Buổi học 2: Toán tử
 ### Toán tử số học (Arithmetic Operators)

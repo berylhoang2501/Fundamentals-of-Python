@@ -67,6 +67,9 @@ dấu : thông báo sắp có format phía sau
 
 -> .0f là format Phân cách thập phân
 
+lấy range index: [a:b]
+ví dụ: print("{} ký tự từ vị trí index {} đến {} là: ".format(cm_bd, ki_tu, ket_thuc), chuoi[cm_bd:ket_thuc])
+
 ## 3/12/2023: Buổi học 2: Toán tử
 ### Toán tử số học (Arithmetic Operators)
 ### Toán tử gán (Assignment Operators)

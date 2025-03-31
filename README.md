@@ -197,6 +197,8 @@ random: phát sinh ngẫu nhiên số thập phân trong phạm vi từ 0->1
 <img width="805" alt="Ảnh màn hình 2025-03-31 lúc 15 16 46" src="https://github.com/user-attachments/assets/a58ce136-eeff-43c4-b94c-82ed266de2c9" />
 <img width="801" alt="Ảnh màn hình 2025-03-31 lúc 15 18 30" src="https://github.com/user-attachments/assets/4b9037cb-a942-46ee-93cd-7a3c76d336ab" />
 <img width="820" alt="Ảnh màn hình 2025-03-31 lúc 15 20 45" src="https://github.com/user-attachments/assets/422cc8bd-b26e-4a3e-8952-56b73320614d" />
+<img width="811" alt="Ảnh màn hình 2025-03-31 lúc 15 22 27" src="https://github.com/user-attachments/assets/e52cd60d-fd48-4731-8b63-013842517845" />
+<img width="819" alt="Ảnh màn hình 2025-03-31 lúc 15 23 28" src="https://github.com/user-attachments/assets/c7f88848-88ca-4e4c-84ed-8c117e430fb5" />
 
 + Count: đếm số lần xuất hiện của ký tự đó
 + Find: tìm vị trí đầu tiên xuất hiện, nếu tìm không thấy thì trả về giá trị -1
@@ -205,6 +207,7 @@ random: phát sinh ngẫu nhiên số thập phân trong phạm vi từ 0->1
 + .joint: nối các đối tượng chuỗi với nhau
 
 ### Hàm xử lí thời gian (Datatime)
+
 + Thư viện time (import time)
 
 Cần import time để sử dụng
@@ -220,6 +223,8 @@ Hàm datetime.date(year,month,day): phải nhập vào kiểu dữ liệu int
 Hàm datetime.datetime.now(): Kết quả trả về ngày giờ hiện tại của hệ thống
 
 + Định dạng chuỗi
+
+<img width="777" alt="Ảnh màn hình 2025-03-31 lúc 15 27 46" src="https://github.com/user-attachments/assets/365e14c4-2d76-4661-9356-2efd395ea7ae" />
 
 + Thư viện calendar (import calendar)
 

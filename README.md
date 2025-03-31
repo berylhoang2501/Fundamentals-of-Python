@@ -164,7 +164,11 @@ for phan_tu in tap_hop_du_lieu:
 ## 10/12/2023: Buổi học 4: Hàm_Built-in functions
 ### Hàm xử lí số học (Number)
 + Hàm toán học (import math)
-  
+
+<img width="808" alt="Ảnh màn hình 2025-03-31 lúc 15 12 09" src="https://github.com/user-attachments/assets/78aea1a7-435c-4cd5-9b6f-d926ad5c779c" />
+
+<img width="832" alt="Ảnh màn hình 2025-03-31 lúc 15 13 39" src="https://github.com/user-attachments/assets/17b949e9-8fe1-4112-a690-d53f74d462a3" />
+
 math.ceil(x): làm tròn cận trên
 
 math.floor(x): làm tròn cận dưới
@@ -179,6 +183,8 @@ math.sqrt(x): căn bậc 2 của x
 
 + Hàm xử lý số ngẫu nhiên (import random)
 
+<img width="824" alt="Ảnh màn hình 2025-03-31 lúc 15 15 54" src="https://github.com/user-attachments/assets/a091cb27-d36a-436a-a2d3-21cea1733497" />
+
 randrange: một số ngẫu nhiên trong khoảng (start, stop, step)
 
 randin: một số ngẫu nhiên trong khoảng từ start đến stop
@@ -188,6 +194,10 @@ sample: giúp chúng ta phát sinh đúng số lượng trog phạm vi nhất đ
 random: phát sinh ngẫu nhiên số thập phân trong phạm vi từ 0->1
 
 ### Hàm xử lí chuỗi (String)
+<img width="805" alt="Ảnh màn hình 2025-03-31 lúc 15 16 46" src="https://github.com/user-attachments/assets/a58ce136-eeff-43c4-b94c-82ed266de2c9" />
+<img width="801" alt="Ảnh màn hình 2025-03-31 lúc 15 18 30" src="https://github.com/user-attachments/assets/4b9037cb-a942-46ee-93cd-7a3c76d336ab" />
+<img width="820" alt="Ảnh màn hình 2025-03-31 lúc 15 20 45" src="https://github.com/user-attachments/assets/422cc8bd-b26e-4a3e-8952-56b73320614d" />
+
 + Count: đếm số lần xuất hiện của ký tự đó
 + Find: tìm vị trí đầu tiên xuất hiện, nếu tìm không thấy thì trả về giá trị -1
 + strip: loại bỏ kí tự chỉ định ở 2 đầu

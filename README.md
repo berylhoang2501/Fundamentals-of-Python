@@ -240,6 +240,7 @@ Hàm calendar.weekday(year, month, day): kết quả trả về thứ, ngày, th
 + Duyệt list: for item in ten_list
 + Thêm phần tử vào list tại vị trí index: ten _list.insert(index, phan_tu)
 + Mở rộng list: ten_ list_muon_mo_rong.extend(ten_list) #[1, 2, 3, 4, 5, 6] còn nếu dùng append thì là [1, 2, 3, [4, 5, 6]]
++  Đếm số lần xuất hiện của một phần tử trong list: ten_list. count(phan_tu)
 + Hàm pop và remove là dùng riêng cho kiểu dữ liệu List, chỉ có hàm del là build-in functions
 + Lệnh .sort(): sắp xếp tăng dần
 + Lệnh .reverse(): sắp xếp giảm 

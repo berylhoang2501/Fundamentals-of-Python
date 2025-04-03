@@ -275,6 +275,12 @@ Cú pháp: (phan_tu1,phan_tu2)
 
 Tuple có bao nhiêu xài bấy nhiêu, không sử dụng thêm các lệnh thêm, xoá, sửa
 
++ Có thể không sử dụng () khi tạo tuple
+
++ Lưu ý: Khi tạo tuple có 1phần tử, cần thêm dấu phẩy (,) vào sau phần ửt đó.
+
++ Cũng tương tự như các phương thức cơ bản của list nhưng không có phương thức: sort(), reverse(), remove(), pop(), insert(), extend(), append()
+
 **4. Dictionary**
 + key:value , key không thể trùng, value nên cho vào list để dễ quản lý
 + {}
@@ -282,6 +288,18 @@ Tuple có bao nhiêu xài bấy nhiêu, không sử dụng thêm các lệnh th�
 + Giá trị nào không được phép trùng nhau thì tạo thành key, những giá trị còn lại thì chọn làm value
 + value number thì không cần lm gì cả, value string thì đặt trong dấu nháy đơn
 
++ Khai báo và gắn gía trị:
+
+<img width="492" alt="Ảnh màn hình 2025-04-04 lúc 00 33 37" src="https://github.com/user-attachments/assets/735560da-978e-4f36-9b82-d43fbe006950" />
+
++ Tạo dictionary: Sử dụng hàm dict():
+
+![Ảnh màn hình 2025-04-04 lúc 00 35 14](https://github.com/user-attachments/assets/978cc1ff-47a8-4c1c-acd4-2560715161cf)
+
++ Truy xuất giá trị trong dictionary: Cú pháp: ten_dictionary[key]
+
++ Cập nhật / thêm mới giá trị vào dictionary. Cú pháp: ten_dictionary[key] = gia_tri
+  
 **5. Set (tập hợp)**
 
 Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê không quan trọng 

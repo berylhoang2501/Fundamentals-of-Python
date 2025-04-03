@@ -254,6 +254,7 @@ Hàm calendar.weekday(year, month, day): kết quả trả về thứ, ngày, th
 + Lệnh .lower(): chuyển đổi chuổi nhập vào thành chữ thường
 + .randint(a,b): tạo 1 số nguyên ngẫu nhiên trong khoảng từ a->b và lưu vào biến
 + .append(x): thêm 1 phần tử vào cuối list
++ .index(): trả về chỉ số đầu tiên của phần tử mà bạn tìm trong list
 
 #### List comprehension
 

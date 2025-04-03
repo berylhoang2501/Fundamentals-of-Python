@@ -235,10 +235,15 @@ Hàm calendar.weekday(year, month, day): kết quả trả về thứ, ngày, th
 
 **2. List**
 + [ ], các phần tử trong list cách nhau bởi dấu ,
++ Cập nhật 1 phần tử: ten_list[index] = gia_tri
++ Cập nhật danh sách các phần tử liên tục: list_numbers[1:4] = [20, 40, 60]
++ Duyệt list: for item in ten_list
++ Thêm phần tử vào list tại vị trí index: ten _list.insert(index, phan_tu)
++ Mở rộng list: ten_ list_muon_mo_rong.extend(ten_list) #[1, 2, 3, 4, 5, 6] còn nếu dùng append thì là [1, 2, 3, [4, 5, 6]]
 + Hàm pop và remove là dùng riêng cho kiểu dữ liệu List, chỉ có hàm del là build-in functions
 + Lệnh .sort(): sắp xếp tăng dần
 + Lệnh .reverse(): sắp xếp giảm 
-+ Lệnh .append(): dùng để thêm các phần tử vào 
++ Lệnh .append(): dùng để thêm các phần tử vào cuối list
 + Lệnh .join(): dùng để nối các phần tử trong list lại với nhau
 + Lệnh .pop(): xoá phần tử trong list theo vị trí index
 + Lệnh del

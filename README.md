@@ -300,7 +300,22 @@ Tuple có bao nhiêu xài bấy nhiêu, không sử dụng thêm các lệnh th�
 + Truy xuất giá trị trong dictionary: Cú pháp: ten_dictionary[key]
 
 + Cập nhật / thêm mới giá trị vào dictionary. Cú pháp: ten_dictionary[key] = gia_tri
-  
+
++ Tạo dictionary với danh sách các key từ sequence: ten_dict = dict.fromkeys(seq[,value])
+
+![Ảnh màn hình 2025-04-06 lúc 01 13 08](https://github.com/user-attachments/assets/fce67fb5-cb8f-4525-86f6-ed2e81a94822)
+
++ ten_dictionary.items(): Trả về danh sách các bộ tuple (key, value) của dictionary
+
+![Ảnh màn hình 2025-04-06 lúc 01 15 45](https://github.com/user-attachments/assets/1f161241-afeb-4dd5-834e-73002b4ea50a)
+
++ ten_dictionary. keys(): Trả về danh sách các key của dictionary
+
++ ten_dictionary.values(): Trả về danh sách các value của dictionary
+
++ ten _dictionary_1. update(ten_dictionary_2): Cập nhật các phần tử từ ten_dictionary_2 vào ten_dictionary_1
+
+
 **5. Set (tập hợp)**
 
 Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê không quan trọng 

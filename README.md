@@ -282,6 +282,12 @@ Tuple có bao nhiêu xài bấy nhiêu, không sử dụng thêm các lệnh th�
 
 + Cũng tương tự như các phương thức cơ bản của list nhưng không có phương thức: sort(), reverse(), remove(), pop(), insert(), extend(), append()
 
++ lấy index
+
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+
+x = thistuple.index(8)
+
 **4. Dictionary**
 + key:value , key không thể trùng, value nên cho vào list để dễ quản lý
 + {}

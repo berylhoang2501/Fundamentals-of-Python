@@ -320,10 +320,15 @@ Tuple có bao nhiêu xài bấy nhiêu, không sử dụng thêm các lệnh th�
 
 Mỗi phần tử chỉ xuất hiện 1 lần duy nhất, thứ tự liệt kê không quan trọng 
 
+Có thể chứa biến thuộc nhiều kiểu dữ liệu khác nhau, nhưng không thể chứa phần ửt có thể thay đổi được như list, set hay dictionary.
+
+Các phần tử trong set không theo thứ tự thêm vào, không sử dụng index.
+
++ (set1, set_2,., set_n}
 + Tác dụng: loại bỏ các phần tử trùng nhau
 + Chỉ gồm value, cú pháp {set1, set_2,..,}
-+ Thêm 1 phần tử trong set: add
-+ Thêm nhiều phần tử trong set: update
++ Thêm 1 phần tử trong set: ten_set.add()
++ Thêm nhiều phần tử trong set: ten_set.update()
 + Xoá thì dùng lệnh discard, remove: xoá thông qua gía trị (nếu giá trị đó không tồn tại thì hàm remove sẽ báo lỗi ngay)
 + Lệnh .clear (): Xoá giá trị của các phần tử khác với del: xoá ra khỏi bộ nhớ
 + .pop() : lấy phần tử ra khỏi set, lấy random, nếu cố tình truyền giá trị sẽ báo lỗi

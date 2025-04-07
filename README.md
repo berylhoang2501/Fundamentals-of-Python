@@ -311,7 +311,7 @@ x = thistuple.index(8)
 
 ![Ảnh màn hình 2025-04-06 lúc 01 13 08](https://github.com/user-attachments/assets/fce67fb5-cb8f-4525-86f6-ed2e81a94822)
 
-+ ten_dictionary.items(): Trả về danh sách các bộ tuple (key, value) của dictionary
++ for key, value in ten_dictionary.items(): Trả về danh sách các bộ tuple (key, value) của dictionary
 
 ![Ảnh màn hình 2025-04-06 lúc 01 15 45](https://github.com/user-attachments/assets/1f161241-afeb-4dd5-834e-73002b4ea50a)
 
@@ -319,8 +319,9 @@ x = thistuple.index(8)
 
 + ten_dictionary.values(): Trả về danh sách các value của dictionary
 
-+ ten _dictionary_1. update(ten_dictionary_2): Cập nhật các phần tử từ ten_dictionary_2 vào ten_dictionary_1
++ ten _dictionary_1.update(ten_dictionary_2): Cập nhật các phần tử từ ten_dictionary_2 vào ten_dictionary_1
 
+<img width="290" alt="Ảnh màn hình 2025-04-08 lúc 02 07 59" src="https://github.com/user-attachments/assets/e3850999-a978-4593-b936-d2d324145f44" />
 
 **5. Set (tập hợp)**
 

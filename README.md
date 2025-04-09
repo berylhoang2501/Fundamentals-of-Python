@@ -351,9 +351,14 @@ Các phần tử trong set không theo thứ tự thêm vào, không sử dụng
 
 3 built-in functions sau đều được dùng kết hợp với lambda 
 
+function có thể là hàm do người dùng định nghĩa, do python cấp, hoặc có thể dùng hàm lambda
+
 + map(): tạo sequences mới dựa trên 1 phương thức và sequence cũ
 
 + map ==>> function + sequence (có thể 1 hoặc nhiều) = sequence mới
+
+![Ảnh màn hình 2025-04-10 lúc 01 33 26](https://github.com/user-attachments/assets/39be0634-d8ba-4f0e-b5da-cf0fcc07656e)
+
 
 Có thể kết hợp với thư viện operator, truyền vào sub(cộng), mul(nhân) để thực hiện các tính toán cơ bản
 

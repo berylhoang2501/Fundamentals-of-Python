@@ -342,10 +342,10 @@ Các phần tử trong set không theo thứ tự thêm vào, không sử dụng
 + Sắp xếp phân tử: dùng sorted (built-in function), có thể dùng cho nhiều kiểu dữ liệu khác nhau
 
 #### Các toán tử và phương thức trên set
-+ Set Union (phép hơp): đổ chung tất cả các phần tử vô chung
-+ Set Intersection (phép giao): lấy phần giống nhau giữa 2 set
-+ Set Difference (phép hiệu)L lấy ra các phần tử riêng biệt (thuộc tập hợp này-là tập hợp đứng trc dấu trừ mà không thuộc tập hợp kia)
-+ Set Symetric difference (phép bù)
++ Set Union (phép hơp): đổ chung tất cả các phần tử vô chung .union()
++ Set Intersection (phép giao): lấy phần giống nhau giữa 2 set . intersection()
++ Set Difference (phép hiệu)L lấy ra các phần tử riêng biệt (thuộc tập hợp này-là tập hợp đứng trc dấu trừ mà không thuộc tập hợp kia) .difference()
++ Set Symetric difference (phép bù): set_1 ^ set_2 (bỏ phần giao nhau) .symmetric_difference()
 
 **6. Các Buil-in functions xử lý Sequence**
 
@@ -353,14 +353,19 @@ Các phần tử trong set không theo thứ tự thêm vào, không sử dụng
 
 + map(): tạo sequences mới dựa trên 1 phương thức và sequence cũ
 
++ map ==>> function + sequence (có thể 1 hoặc nhiều) = sequence mới
+
 Có thể kết hợp với thư viện operator, truyền vào sub(cộng), mul(nhân) để thực hiện các tính toán cơ bản
 
 
-+ filter(function,sequence), dùng để lọc các item trong sequence, tạo ra một sequence mới với các item thoả đk của function
++ filter(function,sequence), dùng để lọc các item trong sequence, tạo ra một sequence mới với các item thoả đk của function => luôn luôn trả về True False
 
+
++ filter ==>> function + sequence = s_new
 
 + reduce (function,sequence) -> value: thưởng chỉ tác động lên 2 phần tử. inport functools để sử dụng reduce()
 
++ reduce = function + sequence = value
 
 ## 17/12/2023: Buổi học 6: Hàm - User-defined Functions
 ### Định nghĩa

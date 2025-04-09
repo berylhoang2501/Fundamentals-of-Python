@@ -338,7 +338,7 @@ Các phần tử trong set không theo thứ tự thêm vào, không sử dụng
 + Thêm nhiều phần tử trong set: ten_set.update()
 + Xoá thì dùng lệnh discard, remove: xoá thông qua gía trị (nếu giá trị đó không tồn tại thì hàm remove sẽ báo lỗi ngay)
 + Lệnh .clear (): Xoá giá trị của các phần tử khác với del: xoá ra khỏi bộ nhớ
-+ .pop() : lấy phần tử ra khỏi set, lấy random, nếu cố tình truyền giá trị sẽ báo lỗi
++ .pop() : lấy phần tử ra khỏi set, lấy phần tử cuối, lấy random, nếu cố tình truyền giá trị sẽ báo lỗi
 + Sắp xếp phân tử: dùng sorted (built-in function), có thể dùng cho nhiều kiểu dữ liệu khác nhau
 
 #### Các toán tử và phương thức trên set

@@ -436,6 +436,10 @@ Sử dụng phương thức read ()
 - noi_dung = f.readlines(): được dùng để đọc tất cả các dòng 1lần và sau đó trả về dưới dạng mỗi dòng là một phần tử trong list. Ký tự xuống
 dòng ('\n') sẽ được đọc và ởcuối của từng chuỗi kết quả.
 
+- f.seek(0): vị trí hiện tại đặt con trỏ trong file, 0 là con trỏ đang ở đầu file
+
+- f.tell(): trả về vị trí hiện hành của con trỏ
+
 ***Ghi file***
 
 Sử dụng phương thức write() hoặc writelines()

@@ -458,6 +458,11 @@ Sử dụng phương thức write() hoặc writelines()
 
 - csv.reader(csvfile[, delimiter])
 
+- Trả về list, mỗi 1 dòng là 1 phần tử, mỗi một phần tử lại là kiểu list (list lồng list)
+
+- .line_num : biết đc đối tượng có bao nhiêu dòng
+
+
 ***Ghi file***
 
 Cú pháp:

@@ -485,6 +485,10 @@ Ghi 1dòng dữ liệu vào csvwriter object:
 
 **1. Module**
 
+- Tạo 1 file chỉ chứa hàm, 1 file chỉ chứa code thực thi
+
+- Nếu trong trường hợp đang ở file b.py nhưng muốn dùng hàm ở file a.py nhưng k muốn chạy chương trình ở file a.py, ta sẽ dùng if __name__ == "__main__" để không chạy và chỉ lấy hàm. 
+
 **2. Package**
 
 **3. Một số module có sẵn trong Python**

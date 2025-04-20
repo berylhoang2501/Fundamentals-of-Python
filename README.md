@@ -491,7 +491,12 @@ Ghi 1dòng dữ liệu vào csvwriter object:
 
 **2. Package**
 
+<img width="289" alt="Ảnh màn hình 2025-04-20 lúc 16 52 37" src="https://github.com/user-attachments/assets/b616e6d5-8067-4ec7-8a91-3c2e73c63b61" />
+
+
 **3. Một số module có sẵn trong Python**
+
+https://docs.python.org/3/library/
 
 **4. Cài đặt và quản lý package với pip**
 
@@ -505,8 +510,16 @@ Một số lệnh PIP cơ bản:
 - Nâng cấp package đã lỗi thời: pip install ‹package_name> --upgrade
 - Gỡ bỏ package: pip uninstall ‹package_name>
 
+![Ảnh màn hình 2025-04-20 lúc 17 06 24](https://github.com/user-attachments/assets/8601947f-8e6c-4706-899e-82bd1be365b7)
+
 ## 31/12/2023: Buổi học 10: Xử lý ngoại lệ
 **1 Giới thiệu**
+
+- Exception chia lm 2 cái:
+
+1. error -> sai cú pháp (syntax error, sửa bằng trình thông dịch), lỗi thực thi (runtime error, dùng try except...else: finally), sai về logic (dùng debugger)
+
+2. điều gì đó bất thường (do ngươi LT quy định) -> đưa vào try except thông qua lệnh raise
 
 - Trong Python, các ngoại lệ có thể được xử lý bằng khối lệnh try... except...
 
@@ -520,8 +533,43 @@ Một số lệnh PIP cơ bản:
 
 - Cú pháp: try.... finally... (Khi ta muốn thực thi khối lệnh trong finally dù cho có lỗi xảy ra trong try hay không.)
 
+- Exception là lỗi đại diện cho tất cả các lỗi khác
+
 <img width="763" alt="Ảnh màn hình 2024-04-09 lúc 21 35 56" src="https://github.com/berylhoang2501/Fundamentals-of-Python/assets/152646327/64be8897-6ee6-49d8-beb2-f0bcd947590b">
 
 
+```
+n = 0
+try:
+    x = int(input("Nhập x: "))
+    y = eval(input("Nhập y: "))
+    
+    # Chủ động ném lỗi cụ thể yêu cầu nhập số chẵn (bất thường)
+    # if x % 2 != 0: 
+    #     raise Exception("Yêu cầu nhập số chẵn")
+    
+    n = x / y
+
+except ValueError as err1:
+    print("Lỗi 1: Giá trị không hợp lệ", err1)
+
+except NameError as err2:
+    print("Lỗi 2: ", err2)
+
+except ZeroDivisionError as err3:
+    print("Lỗi 3: chia 1 số cho 0, ", err3)
+
+except Exception as err4:
+    # Lỗi chung luôn nằm sau cùng, đặt sau các lỗi cụ thể
+    print("Lỗi 4: ", err4)
+
+else:
+    # Khi không có exception nào
+    print("n1 = ", n)
+
+finally:
+    # Khi có hoặc không có exception, vẫn thực hiện
+    print("n2 = ", n)
+```
 
 
